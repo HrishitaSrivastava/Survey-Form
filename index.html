@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+
+        <div class="heading">
+            <h1 id="head">Survey Form</h1>
+            <h2 id="subheading">Thank you for giving your precious time for filling this form</h2>
+        </div>
+
+        <form id="survey-form" action="#" class="form">
+
+            <div id="content1">
+                <label>Name</label><br><br>
+                <input type="text" name="Name" placeholder="Abc Xyz" class="box" id="name" required /> <br><br>
+                <label>Email</label><br><br>
+                <input type="email" name="Email" placeholder="abc@gmail.com" class="box" id="email" required /><br><br>
+                <label >Age (optional)</label><br><br>
+                <input type="number" name="Age" placeholder="Eg: 24" id="number" min="10" max="99" class="box" required><br><br>
+                <label >In which year did you start?</label><br><br>
+            </div>
+
+            <div id="option1">
+                <select name="Year" id="dropdown" class="box">
+                    <option value="">Select Year</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="Before 2016">Before</option>
+                    <option value="After 2019">After</option>
+                </select><br><br>
+            </div>
+
+            <div id="content2">
+                <label for="Recommend">Would you Recommend anyone?</label><br><br>
+                <label for="Yes"><input type="radio" value="Yes" name="radio" />Yes </label><br><br>
+                <label for="No"><input type="radio" value="No" name="radio" />No</label><br><br>
+                <label for="Not sure"><input type="radio" value="Not Sure" name="radio" />Not Sure</label><br><br>
+                <label for="Favourite feature">Which genre would you recommend?</label><br><br>
+            </div>
+
+            <div id="option2">
+                <select name="Feature" id="Feature" class="box">
+                    <option value="">Select an option </option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Tragedy">Tragedy</option>
+                    <option value="Tragicomedy">Tragicomedy</option>
+                    <option value="Melodrama">Melodrama</option>
+                    <option value="Others">Others</option>
+                </select><br><br>
+            </div>
+
+            <div id="content3">
+                </label>
+                <label for="Improve">Which genre you like to watch the most?(Check all that apply)</label><br><br>
+                <label for="Drama"><input type="checkbox" value="drama" /> Drama</label><br><br>
+                <label for="Romantic Comedy"><input type="checkbox" value="romantic-comedy" />Romantic Comedy</label><br><br>
+                <label for="Historical Drama"><input type="checkbox" value="historical-drama" />Historical Drama</label><br><br>
+                <label for="Thriller"><input type="checkbox" value="thriller"/>Thriller</label><br><br>
+                <label for="Horror"><input type="checkbox" value="horror"/>Horror</label><br><br>
+                <label for="Supernatural"><input type="checkbox" value="supernatural"/>Supernatural</label><br><br>
+                <label for="Comedy"><input type="checkbox" value="comedy"/>Comedy</label><br><br>
+                <label for="Suspense"><input type="checkbox" value="suspense"/>Suspense</label><br><br>
+                <label for="Mystery"><input type="checkbox" value="mystery"/>Mystery</label><br><br>
+                <label for="Melodrama"><input type="checkbox" value="melodrama"/>Melodrama</label><br><br>
+                <label for="Action"><input type="checkbox" value="action"/>Action</label><br><br>
+                <label for="Fantasy"><input type="checkbox" value="fantasy"/>Fantasy</label><br><br>
+            </div>
+
+            <div id="content4" >
+                <label for="Comment">Any comments or suggestions?<br><br>
+                    <textarea id="bio" name="bio" rows="5" cols="40" placeholder="Enter your comment here..." class="comment"></textarea><br><br>
+                </label>
+            </div>
+            <button type="submit" id="submit" value="submit" ><h3>Submit</h3></button>
+            </form>
+            <script>
+                
+            </script>
+        </main>
+        </div>
+    </body>
+</html>
